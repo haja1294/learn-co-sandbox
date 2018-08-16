@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+ max-width: 1000px;
+ position: relative;
+ margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ padding: 16px;
+ margin-top: -22px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+ color: #f2f2f2;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4}
+ to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+ .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container" style= "text-align: center">
+
+<div class="mySlides fade">
+ <div class="numbertext">1 / 10</div>
+ <a href="https://www.nike.com/t/pro-womens-3-training-shorts-v2TERYBP/889577-010">
+<img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/cireta4oc8j53qunjcvz/pro-womens-3-training-shorts-v2TERYBP.jpg" style= "width: 50%" >
+</a>
+
+</div>
+
+<div class="mySlides fade">
+ <div class="numbertext">2 / 10</div>
+ <a href="https://www.fabletics.com/product?id=4793692&utm_source=google&keyword=PRODUCT%20GROUP&bp=0&slabel=Capris&utm_medium=Shopping&plabel=US_FL_PLA_Capris&opid=4793698&aid={AdId}&subchannel=GOOGLE&utm_campaign=US_FL_PLA_Capris&scode=DSAGID_58700003758721308&code=463D35&channel=Shopping&pcode=DSCID_71700000030900336&ccode=DSKWID_p34664705692"><img src="https://fabletics-us-cdn.justfab.com/media/images/products/CS1720203-0039/CS1720203-0039-1_998x1498.jpg" style="width:50%"></a>
+</div>
+
+<div class="mySlides fade">
+ <div class="numbertext">3 / 10</div>
+ <a href="https://www.final-score.com/product/Nike-Archive-Pants-Women%27s/55742010.html?SID=6679&inceptor=1&cm_mmc=SEM-_-PLA-_-Google-_-55742010&gclid=CjwKCAjwwdTbBRAIEiwAYQf_E3_kNI6q6gvK-5Xb_-0feOLVjEuRM4nA1FiXUNgCFhJu4NzFDpAcphoCGlMQAvD_BwE&gclsrc=aw.ds"><img src="https://images.footlocker.com/is/image/EBFL2/55742010_fr_ven_sc7?wid=640&hei=640&fmt=jpeg" style="width:50%"></a>
+ <div class="text">
+</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4/10</div>
+<a href="https://www.bloomingdales.com/shop/product/nike-essential-logo-cropped-tee?ID=2681483&pla_country=US&cm_mmc=Google-PLA-ADC-_-Designer-NA-_-Nike-_-883418730963USA&CAWELAID=120156070007024484&CAGPSPN=pla&CAAGID=47685644599&CATCI=aud-343412609714:pla-377531178449&CATARGETID=120156070006078282&cadevice=c&gclid=CjwKCAjwwdTbBRAIEiwAYQf_E41mMFBvWmPgLn2EI5460I1FqzFENLupX1HjkXP9dEXU7AqaNxwxrxoCtowQAvD_BwE"><img src="https://images.bloomingdalesassets.com/is/image/BLM/products/7/optimized/9902207_fpx.tif?wid=1200&qlt=90,0&layer=comp&op_sharpen=0&resMode=sharp2&op_usm=0.7,1.0,0.5,0&fmt=jpeg" style="width:50%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5/10</div>
+<a href="https://www.zara.com/us/en/drawstring-hem-t-shirt-p05580626.html?v1=6778014&v2=1074617"><img src="https://static.zara.net/photos///2018/I/0/1/p/5580/626/251/2/w/1024/5580626251_1_1_1.jpg?ts=1532448509099" style="width:50%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6/10</div>
+<a href="https://www.gap.com/browse/product.do?pid=636925022&CAWELAID=120280880000199667&CAGPSPN=pla&CAAGID=39045364292&CATCI=pla-297664606799&tid=gppl000013&kwid=1&ap=7&gclid=CjwKCAjwwdTbBRAIEiwAYQf_E-7ociLN-c9_jdh5mrc2OHfBIiG1w93444sXG-QgQfCGTxyP8Nh5_BoC9u4QAvD_BwE&gclsrc=aw.ds"><img src="https://www.gap.com/webcontent/0013/892/284/cn13892284.jpg" style="width:50%"></a>
+</div>
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">7/10</div>
+<a href="http://www.topshop.com/en/tsuk/product/clothing-427/ivy-park-5463599/jigsaw-logo-t-shirt-by-ivy-park-7897364"><img src="https://images.topshop.com/i/TopShop/TS29T56PWHT_M_1.jpg?$Zoom$" style="width:50%"></a>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8/10</div>
+<a href="https://images.topshop.com/i/TopShop/TS29T56PWHT_M_1.jpg?$Zoom$”"><img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/trsk3nmqszlvkga5vu3r/sportswear-womens-short-sleeve-crop-top-6PVrMr.jpg" style="width:50%"></a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9/10</div>
+<a href="https://www.nike.com/t/sportswear-essential-womens-logo-tank-NwTz9XWy/831731-838"><img src="https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto/qiiiyxfqvq4shol7pvpc/sportswear-essential-womens-logo-tank-NwTz9XWy.jpg" style="width:50%"></a>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">10/10</div>
+<a href="https://www.macys.com/shop/product/nike-pro-dri-fit-cropped-racerback-tank-top?ID=5388818&CategoryID=74021&swatchColor=Black#fn=sp%3D1%26spc%3D1628%26ruleId%3D78%26searchPass%3DmatchNone%26slotId%3D12"><img src="https://slimages.macysassets.com/is/image/MCY/products/2/optimized/9590332_fpx.tif?op_sharpen=1&wid=1230&hei=1500&fit=fit,1&$filterxlrg$" style="width:50%"></a>
+</div>
+
+
+
+<br>
+
+
+
+
+<div style="text-align:center">
+ <span class="dot" onclick="currentSlide(1)"></span>
+ <span class="dot" onclick="currentSlide(2)"></span>
+ <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+   <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+     <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+       <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+ showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+ var i;
+ var slides = document.getElementsByClassName("mySlides");
+ var dots = document.getElementsByClassName("dot");
+ if (n > slides.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = slides.length}
+ for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";
+ }
+ for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" active", "");
+ }
+ slides[slideIndex-1].style.display = "block";
+ dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
